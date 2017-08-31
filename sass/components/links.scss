@@ -1,0 +1,22 @@
+.link {
+  color: $invert-txt-color;
+  transition: all 0.15s;
+  &:hover, &:focus {
+    color: $accent-lnk-color;
+  }
+  &:active {
+    color: $accent-lnk-color
+  }
+}
+
+.link-inv {
+  color: $second-txt-color;
+  transition: all 0.15s;
+  &:hover, &:focus {
+    color: $accent-lnk-invert-color;
+  }
+  &:active {
+    color: $accent-lnk-invert-color;
+  }
+
+}
